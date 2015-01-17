@@ -2,19 +2,15 @@
 Description
 ===========
 
-Chapter 2
+Chapter 3
 ---------
-This chapters example contains the basic templates for the example blog.
+This chapters examples contains the first database examples.
 
 
 Make the example work
 ---------------------
 
-Install Meteor if you haven't:
+Please follow the instructions in chapter one of the book to install Meteor and its dependencies. As a short reminder:
 
-	$ curl https://install.meteor.com/ | sh
-
-cd into the folder of the example code and run
-
-    $ meteor
+		$ curl https://install.meteor.com/ | sh
 
