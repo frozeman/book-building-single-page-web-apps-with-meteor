@@ -2,9 +2,9 @@
 Description
 ===========
 
-Chapter 4
+Chapter 5
 ---------
-This chapters examples contain the publication and subsciption examples. It also contains the lazy-load functionality for the home page of the example blog.
+This chapters examples contain the app with add routes!
 
 
 Make the example work
