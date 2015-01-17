@@ -1,0 +1,20 @@
+<template name="home">
+	{{#markdown}}
+## Welcome to my Blog
+Here I'm talking about my latest discoveries from the world of JavaScript.
+	{{/markdown}}
+
+
+	<!-- #Users and Permissions -> Adding admin functionality to the templates -->
+	{{#if currentUser.roles.admin}}
+		<a href="/create-post" class="createNewPost">Create new post</a>
+	{{/if}}
+
+	<!-- Listing posts -->
+	{{#each postsList}}
+		{{> postInList}}
+	{{/each}}
+
+	<!-- #Controlling the data flow -> Lazy load posts or how to change subscriptions -->
+	<button class="lazyload">Load more</button>
+</template>

@@ -1,0 +1,38 @@
+<template name="layout">
+	<header>
+		<div class="container">
+			<h1>My Meteor Single Page App</h1>
+			<ul>
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/about">About</a>
+				</li>
+			</ul>
+
+			<!-- #Users and permissions -> Adding admin functionality to the template -->
+			{{> loginButtons}}
+		</div>
+	</header>
+
+	<div class="container">
+		<main>
+			{{> yield}}
+		</main>
+	</div>
+</template>
+
+<!-- #Routes -> Switching to a layout template -->
+<template name="notFound">
+	<div class="center">
+		<h1>Nothing here</h1><br>
+		<h2>You hit a page which doesn't exist!</h2>
+	</div>
+</template>
+
+<template name="loading">
+	<div class="center">
+		<h1>Loading</h1>
+	</div>
+</template>

@@ -7,11 +7,18 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom('METEOR@1.0');
+	api.versionsFrom('METEOR@0.9.4');
 
 	api.use('tracker', 'client');
 
 	api.export('ReactiveTimer');
 
 	api.addFiles('ReactiveTimer.js', 'client');
+});
+
+Package.onTest(function (api) {
+	api.use('meteor-book:reactive-timer', 'client');
+	api.use('tinytest', 'client');
+
+	api.addFiles('tests/tests.js', 'client');
 });

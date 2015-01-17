@@ -2,16 +2,20 @@
 Description
 ===========
 
-Chapter 11
+Chapter 12
 ---------
-This chapters examples contain only the package code.
-The full app is available in the code example of chapter 10.
+This chapters examples include the app with tests
+and the meteor-book:reactive-timer package we've build in chapter 11 containing now tests.
 
 
 Make the example work
 ---------------------
 
-You need to copy the "reactive-timer" folder into your app's "packages" folder
-and run the following command from inside you app's folder to add the package:
+Install Meteor if you haven't:
 
-$ meteor add meteor-book:reactive-timer
+	$ curl https://install.meteor.com/ | sh
+
+cd into the folder of the example code and run
+
+    $ meteor
+

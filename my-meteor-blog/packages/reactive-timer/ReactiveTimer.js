@@ -10,10 +10,10 @@ ReactiveTimer = (function () {
     ReactiveTimer.prototype.start = function(interval){
     	var _this = this;
 
-    	this._intervalId = Meteor.setInterval(function(){
-            // rerun every "interval"
-            _this._dependecy.changed();
-        }, 1000 * interval);
+    	// this._intervalId = Meteor.setInterval(function(){
+     //        // rerun every "interval"
+     //        _this._dependecy.changed();
+     //    }, 1000 * interval);
     };
 
     ReactiveTimer.prototype.stop = function(){
