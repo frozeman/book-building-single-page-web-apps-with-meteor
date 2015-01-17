@@ -2,20 +2,16 @@
 Description
 ===========
 
-Chapter 10
+Chapter 11
 ---------
-This code contains the ready to deploy app!
-
-Note: This app won't create any dummy posts on start, so that the user can create its own.
+This chapters examples contain only the package code.
+The full app is available in the code example of chapter 10.
 
 
 Make the example work
 ---------------------
 
-Install Meteor if you haven't:
+You need to copy the "reactive-timer" folder into your app's "packages" folder
+and run the following command from inside you app's folder to add the package:
 
-	$ curl https://install.meteor.com/ | sh
-
-cd into the folder of the example code and run
-
-    $ meteor
+$ meteor add meteor-book:reactive-timer
