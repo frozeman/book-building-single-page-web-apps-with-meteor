@@ -3,14 +3,14 @@ ReactiveTimer = (function () {
 
     // Constructor
     function ReactiveTimer() {
-    	this._dependecy = new Tracker.Dependency;
-    	this._intervalId = null;
+        this._dependecy = new Tracker.Dependency;
+        this._intervalId = null;
     };
 
     ReactiveTimer.prototype.start = function(interval){
-    	var _this = this;
+        var _this = this;
 
-    	this._intervalId = Meteor.setInterval(function(){
+        this._intervalId = Meteor.setInterval(function(){
             // rerun every "interval"
             _this._dependecy.changed();
         }, 1000 * interval);

@@ -2,9 +2,11 @@
 Description
 ===========
 
-Chapter 9
+Chapter 10
 ---------
-This chapters examples contains the app with the reactive timer example.
+This code contains the ready to deploy app!
+
+Note: This app won't create any dummy posts on start, so that the user can create its own.
 
 
 Make the example work
