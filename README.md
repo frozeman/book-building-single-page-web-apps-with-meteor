@@ -2,15 +2,18 @@
 Description
 ===========
 
-Chapter 3
+Chapter 4
 ---------
-This chapters examples contains the first database examples.
+This chapters examples contain the publication and subsciption examples. It also contains the lazy-load functionality for the home page of the example blog.
 
 
 Make the example work
 ---------------------
 
-Please follow the instructions in chapter one of the book to install Meteor and its dependencies. As a short reminder:
+Install Meteor if you haven't:
 
-		$ curl https://install.meteor.com/ | sh
+	$ curl https://install.meteor.com/ | sh
 
+cd into the folder of the example code and run
+
+    $ meteor
