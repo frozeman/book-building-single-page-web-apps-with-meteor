@@ -2,9 +2,9 @@
 Description
 ===========
 
-Chapter 1
+Chapter 2
 ---------
-This chapters example contains the basic application structure which we will need later on in the book and the style files inside `client/styles`.
+This chapters example contains the basic templates for the example blog.
 
 
 Make the example work

@@ -1,0 +1,19 @@
+<template name="contextExample">
+	<p>{{someText}}</p>
+	<p>{{someNested.text}}</p>
+	<p>{{logContext}}</p>
+
+	<button>Get some random number</button>
+</template>
+
+<!-- Block helpers -->
+<template name="blockHelperExample">
+	<div>
+		<h1>My Block Helper</h1>
+		{{#if this}}
+			<p>Content goes here: {{> Template.contentBlock}}</p>
+		{{else}}
+			<p>Else content here: {{> Template.elseBlock}}</p>
+		{{/if}}
+	</div>	
+</template>
