@@ -2,9 +2,9 @@
 Description
 ===========
 
-Chapter 8
+Chapter 9
 ---------
-This chapters examples contains the app with deny and allow rules, as well as a method to add new posts.
+This chapters examples contains the app with the reactive timer example.
 
 
 Make the example work
