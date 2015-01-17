@@ -2,9 +2,9 @@
 Description
 ===========
 
-Chapter 6
+Chapter 7
 ---------
-This chapters examples contain the examples for using sessions.
+This chapters examples the app with login and admin user to create and edit posts.
 
 
 Make the example work

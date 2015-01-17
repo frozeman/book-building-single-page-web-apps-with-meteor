@@ -4,9 +4,11 @@
 Here I'm talking about my latest discoveries from the world of JavaScript.
 	{{/markdown}}
 
-	<!-- #Sessions -> Using sessions in template helpers -->
-	<h2>This comes from our Session: <strong>{{sessionExample}}</strong></h2>
 
+	<!-- #Users and Permissions -> Adding admin functionality to the templates -->
+	{{#if currentUser.roles.admin}}
+		<a href="/create-post" class="createNewPost">Create new post</a>
+	{{/if}}
 
 	<!-- Listing posts -->
 	{{#each postsList}}
