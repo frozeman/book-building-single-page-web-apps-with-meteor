@@ -2,9 +2,9 @@
 Description
 ===========
 
-Chapter 5
+Chapter 6
 ---------
-This chapters examples contain the app with add routes!
+This chapters examples contain the examples for using sessions.
 
 
 Make the example work
