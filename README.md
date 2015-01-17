@@ -2,9 +2,9 @@
 Description
 ===========
 
-Chapter 7
+Chapter 8
 ---------
-This chapters examples the app with login and admin user to create and edit posts.
+This chapters examples contains the app with deny and allow rules, as well as a method to add new posts.
 
 
 Make the example work

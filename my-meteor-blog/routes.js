@@ -2,7 +2,6 @@ if(Meteor.isClient) {
     Session.setDefault('lazyloadLimit', 2);
 }
 
-
 Router.configure({
     layoutTemplate: 'layout',
     notFoundTemplate: 'notFound',
